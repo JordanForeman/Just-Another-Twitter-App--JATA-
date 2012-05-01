@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B35B86D1476C9800077EA10 /* tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B35B86C1476C9800077EA10 /* tweet.m */; };
+		5B35B86F1476C9C00077EA10 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B35B86E1476C9C00077EA10 /* CoreLocation.framework */; };
+		5B35B87A1476CC810077EA10 /* TweetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B35B8791476CC810077EA10 /* TweetTableViewController.m */; };
+		7C4B256A147709B4000A3799 /* TweetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B2568147709B4000A3799 /* TweetDetailViewController.m */; };
+		7C4B256B147709B4000A3799 /* TweetDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C4B2569147709B4000A3799 /* TweetDetailViewController.xib */; };
+		7C4B257514770AF7000A3799 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B257214770AF7000A3799 /* MapPoint.m */; };
+		7C4B257614770AF7000A3799 /* MapPointStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B257414770AF7000A3799 /* MapPointStore.m */; };
+		7C4C29621496A23900ABA6FC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE467B8148E772700A5E5D9 /* Twitter.framework */; };
+		7C7893011499308100F65233 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7893001499308100F65233 /* icon.png */; };
+		7C7893031499308A00F65233 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7893021499308A00F65233 /* icon@2x.png */; };
+		7C87B6B31499364800C84A9C /* AccountSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C87B6B21499364800C84A9C /* AccountSelectorViewController.m */; };
+		7C8BEC51148FF895002D1864 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BEC4A148FF895002D1864 /* Map.png */; };
+		7C8BEC52148FF895002D1864 /* Map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BEC4B148FF895002D1864 /* Map@2x.png */; };
+		7C8BEC53148FF895002D1864 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BEC4C148FF895002D1864 /* splash.png */; };
+		7C8BEC55148FF895002D1864 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BEC4E148FF895002D1864 /* splash@2x.png */; };
+		7C8BEC56148FF895002D1864 /* Timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BEC4F148FF895002D1864 /* Timeline.png */; };
+		7C8BEC57148FF895002D1864 /* Timeline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BEC50148FF895002D1864 /* Timeline@2x.png */; };
+		7C8BEC5A148FF8CB002D1864 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BEC59148FF8CB002D1864 /* Default.png */; };
+		7C8BEC5C148FF8D2002D1864 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BEC5B148FF8D2002D1864 /* Default@2x.png */; };
+		7CB6F76C14853895000FACAB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6F76B14853895000FACAB /* MapKit.framework */; };
+		7CB6F78814853FAF000FACAB /* TweetMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6F78614853FAF000FACAB /* TweetMapViewController.m */; };
+		7CB6F78914853FAF000FACAB /* TweetMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB6F78714853FAF000FACAB /* TweetMapViewController.xib */; };
+		7CE4A135146B4D5500B90BD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE4A134146B4D5500B90BD3 /* UIKit.framework */; };
+		7CE4A137146B4D5500B90BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE4A136146B4D5500B90BD3 /* Foundation.framework */; };
+		7CE4A139146B4D5500B90BD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE4A138146B4D5500B90BD3 /* CoreGraphics.framework */; };
+		7CE4A13F146B4D5500B90BD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4A13D146B4D5500B90BD3 /* InfoPlist.strings */; };
+		7CE4A141146B4D5500B90BD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A140146B4D5500B90BD3 /* main.m */; };
+		7CE4A145146B4D5500B90BD3 /* jataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A144146B4D5500B90BD3 /* jataAppDelegate.m */; };
+		7CE4A148146B4D5600B90BD3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4A146146B4D5600B90BD3 /* MainWindow.xib */; };
+		7CE4A22B146B51D200B90BD3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE4A227146B51D200B90BD3 /* CFNetwork.framework */; };
+		7CE4A22C146B51D200B90BD3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE4A228146B51D200B90BD3 /* libxml2.dylib */; };
+		7CE4A22D146B51D200B90BD3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE4A229146B51D200B90BD3 /* MobileCoreServices.framework */; };
+		7CE4A22E146B51D200B90BD3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE4A22A146B51D200B90BD3 /* SystemConfiguration.framework */; };
+		7CE873AF1477149E0056A760 /* TweetStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE873AE1477149E0056A760 /* TweetStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B35B86B1476C9800077EA10 /* tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweet.h; sourceTree = "<group>"; };
+		5B35B86C1476C9800077EA10 /* tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tweet.m; sourceTree = "<group>"; };
+		5B35B86E1476C9C00077EA10 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5B35B8781476CC810077EA10 /* TweetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetTableViewController.h; sourceTree = "<group>"; };
+		5B35B8791476CC810077EA10 /* TweetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetTableViewController.m; sourceTree = "<group>"; };
+		7C4B2567147709B4000A3799 /* TweetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetDetailViewController.h; sourceTree = "<group>"; };
+		7C4B2568147709B4000A3799 /* TweetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetDetailViewController.m; sourceTree = "<group>"; };
+		7C4B2569147709B4000A3799 /* TweetDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetDetailViewController.xib; sourceTree = "<group>"; };
+		7C4B257114770AF7000A3799 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		7C4B257214770AF7000A3799 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		7C4B257314770AF7000A3799 /* MapPointStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPointStore.h; sourceTree = "<group>"; };
+		7C4B257414770AF7000A3799 /* MapPointStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPointStore.m; sourceTree = "<group>"; };
+		7C4C295F1496A23200ABA6FC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7C7893001499308100F65233 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		7C7893021499308A00F65233 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		7C87B6B11499364800C84A9C /* AccountSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSelectorViewController.h; sourceTree = "<group>"; };
+		7C87B6B21499364800C84A9C /* AccountSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSelectorViewController.m; sourceTree = "<group>"; };
+		7C8BEC4A148FF895002D1864 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Map.png; path = ../Map.png; sourceTree = "<group>"; };
+		7C8BEC4B148FF895002D1864 /* Map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Map@2x.png"; path = "../Map@2x.png"; sourceTree = "<group>"; };
+		7C8BEC4C148FF895002D1864 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../splash.png; sourceTree = "<group>"; };
+		7C8BEC4E148FF895002D1864 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash@2x.png"; path = "../splash@2x.png"; sourceTree = "<group>"; };
+		7C8BEC4F148FF895002D1864 /* Timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Timeline.png; path = ../Timeline.png; sourceTree = "<group>"; };
+		7C8BEC50148FF895002D1864 /* Timeline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Timeline@2x.png"; path = "../Timeline@2x.png"; sourceTree = "<group>"; };
+		7C8BEC59148FF8CB002D1864 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		7C8BEC5B148FF8D2002D1864 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		7CB6F76B14853895000FACAB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7CB6F78514853FAF000FACAB /* TweetMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetMapViewController.h; sourceTree = "<group>"; };
+		7CB6F78614853FAF000FACAB /* TweetMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetMapViewController.m; sourceTree = "<group>"; };
+		7CB6F78714853FAF000FACAB /* TweetMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetMapViewController.xib; sourceTree = "<group>"; };
+		7CE467B8148E772700A5E5D9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7CE4A130146B4D5500B90BD3 /* jata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE4A134146B4D5500B90BD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CE4A136146B4D5500B90BD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CE4A138146B4D5500B90BD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CE4A13C146B4D5500B90BD3 /* jata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jata-Info.plist"; sourceTree = "<group>"; };
+		7CE4A13E146B4D5500B90BD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CE4A140146B4D5500B90BD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CE4A142146B4D5500B90BD3 /* jata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jata-Prefix.pch"; sourceTree = "<group>"; };
+		7CE4A143146B4D5500B90BD3 /* jataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jataAppDelegate.h; sourceTree = "<group>"; };
+		7CE4A144146B4D5500B90BD3 /* jataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jataAppDelegate.m; sourceTree = "<group>"; };
+		7CE4A147146B4D5600B90BD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7CE4A227146B51D200B90BD3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7CE4A228146B51D200B90BD3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		7CE4A229146B51D200B90BD3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7CE4A22A146B51D200B90BD3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7CE873AD1477149E0056A760 /* TweetStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetStore.h; sourceTree = "<group>"; };
+		7CE873AE1477149E0056A760 /* TweetStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CE4A12D146B4D5500B90BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4C29621496A23900ABA6FC /* Twitter.framework in Frameworks */,
+				7CB6F76C14853895000FACAB /* MapKit.framework in Frameworks */,
+				5B35B86F1476C9C00077EA10 /* CoreLocation.framework in Frameworks */,
+				7CE4A22B146B51D200B90BD3 /* CFNetwork.framework in Frameworks */,
+				7CE4A22C146B51D200B90BD3 /* libxml2.dylib in Frameworks */,
+				7CE4A22D146B51D200B90BD3 /* MobileCoreServices.framework in Frameworks */,
+				7CE4A22E146B51D200B90BD3 /* SystemConfiguration.framework in Frameworks */,
+				7CE4A135146B4D5500B90BD3 /* UIKit.framework in Frameworks */,
+				7CE4A137146B4D5500B90BD3 /* Foundation.framework in Frameworks */,
+				7CE4A139146B4D5500B90BD3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CE4A125146B4D5500B90BD3 = {
+			isa = PBXGroup;
+			children = (
+				7CE4A13A146B4D5500B90BD3 /* jata */,
+				7CE4A133146B4D5500B90BD3 /* Frameworks */,
+				7CE4A131146B4D5500B90BD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CE4A131146B4D5500B90BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A130146B4D5500B90BD3 /* jata.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE4A133146B4D5500B90BD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C4C295F1496A23200ABA6FC /* Accounts.framework */,
+				7CE467B8148E772700A5E5D9 /* Twitter.framework */,
+				7CB6F76B14853895000FACAB /* MapKit.framework */,
+				5B35B86E1476C9C00077EA10 /* CoreLocation.framework */,
+				7CE4A227146B51D200B90BD3 /* CFNetwork.framework */,
+				7CE4A228146B51D200B90BD3 /* libxml2.dylib */,
+				7CE4A229146B51D200B90BD3 /* MobileCoreServices.framework */,
+				7CE4A22A146B51D200B90BD3 /* SystemConfiguration.framework */,
+				7CE4A134146B4D5500B90BD3 /* UIKit.framework */,
+				7CE4A136146B4D5500B90BD3 /* Foundation.framework */,
+				7CE4A138146B4D5500B90BD3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CE4A13A146B4D5500B90BD3 /* jata */ = {
+			isa = PBXGroup;
+			children = (
+				7C87B6B11499364800C84A9C /* AccountSelectorViewController.h */,
+				7C87B6B21499364800C84A9C /* AccountSelectorViewController.m */,
+				7CE4A146146B4D5600B90BD3 /* MainWindow.xib */,
+				7CE4A143146B4D5500B90BD3 /* jataAppDelegate.h */,
+				7CE4A144146B4D5500B90BD3 /* jataAppDelegate.m */,
+				7C4B257114770AF7000A3799 /* MapPoint.h */,
+				7C4B257214770AF7000A3799 /* MapPoint.m */,
+				7C4B257314770AF7000A3799 /* MapPointStore.h */,
+				7C4B257414770AF7000A3799 /* MapPointStore.m */,
+				5B35B8781476CC810077EA10 /* TweetTableViewController.h */,
+				5B35B8791476CC810077EA10 /* TweetTableViewController.m */,
+				7C4B2567147709B4000A3799 /* TweetDetailViewController.h */,
+				7C4B2568147709B4000A3799 /* TweetDetailViewController.m */,
+				7C4B2569147709B4000A3799 /* TweetDetailViewController.xib */,
+				7CB6F78514853FAF000FACAB /* TweetMapViewController.h */,
+				7CB6F78614853FAF000FACAB /* TweetMapViewController.m */,
+				7CB6F78714853FAF000FACAB /* TweetMapViewController.xib */,
+				5B35B86B1476C9800077EA10 /* tweet.h */,
+				5B35B86C1476C9800077EA10 /* tweet.m */,
+				7CE873AD1477149E0056A760 /* TweetStore.h */,
+				7CE873AE1477149E0056A760 /* TweetStore.m */,
+				7CE4A13B146B4D5500B90BD3 /* Supporting Files */,
+			);
+			path = jata;
+			sourceTree = "<group>";
+		};
+		7CE4A13B146B4D5500B90BD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C7893021499308A00F65233 /* icon@2x.png */,
+				7C7893001499308100F65233 /* icon.png */,
+				7C8BEC5B148FF8D2002D1864 /* Default@2x.png */,
+				7C8BEC59148FF8CB002D1864 /* Default.png */,
+				7C8BEC4A148FF895002D1864 /* Map.png */,
+				7C8BEC4B148FF895002D1864 /* Map@2x.png */,
+				7C8BEC4C148FF895002D1864 /* splash.png */,
+				7C8BEC4E148FF895002D1864 /* splash@2x.png */,
+				7C8BEC4F148FF895002D1864 /* Timeline.png */,
+				7C8BEC50148FF895002D1864 /* Timeline@2x.png */,
+				7CE4A13C146B4D5500B90BD3 /* jata-Info.plist */,
+				7CE4A13D146B4D5500B90BD3 /* InfoPlist.strings */,
+				7CE4A140146B4D5500B90BD3 /* main.m */,
+				7CE4A142146B4D5500B90BD3 /* jata-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CE4A12F146B4D5500B90BD3 /* jata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE4A14B146B4D5600B90BD3 /* Build configuration list for PBXNativeTarget "jata" */;
+			buildPhases = (
+				7CE4A12C146B4D5500B90BD3 /* Sources */,
+				7CE4A12D146B4D5500B90BD3 /* Frameworks */,
+				7CE4A12E146B4D5500B90BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jata;
+			productName = jata;
+			productReference = 7CE4A130146B4D5500B90BD3 /* jata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CE4A127146B4D5500B90BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7CE4A12A146B4D5500B90BD3 /* Build configuration list for PBXProject "jata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CE4A125146B4D5500B90BD3;
+			productRefGroup = 7CE4A131146B4D5500B90BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CE4A12F146B4D5500B90BD3 /* jata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CE4A12E146B4D5500B90BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE4A13F146B4D5500B90BD3 /* InfoPlist.strings in Resources */,
+				7CE4A148146B4D5600B90BD3 /* MainWindow.xib in Resources */,
+				7C4B256B147709B4000A3799 /* TweetDetailViewController.xib in Resources */,
+				7CB6F78914853FAF000FACAB /* TweetMapViewController.xib in Resources */,
+				7C8BEC51148FF895002D1864 /* Map.png in Resources */,
+				7C8BEC52148FF895002D1864 /* Map@2x.png in Resources */,
+				7C8BEC53148FF895002D1864 /* splash.png in Resources */,
+				7C8BEC55148FF895002D1864 /* splash@2x.png in Resources */,
+				7C8BEC56148FF895002D1864 /* Timeline.png in Resources */,
+				7C8BEC57148FF895002D1864 /* Timeline@2x.png in Resources */,
+				7C8BEC5A148FF8CB002D1864 /* Default.png in Resources */,
+				7C8BEC5C148FF8D2002D1864 /* Default@2x.png in Resources */,
+				7C7893011499308100F65233 /* icon.png in Resources */,
+				7C7893031499308A00F65233 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CE4A12C146B4D5500B90BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE4A141146B4D5500B90BD3 /* main.m in Sources */,
+				7CE4A145146B4D5500B90BD3 /* jataAppDelegate.m in Sources */,
+				5B35B86D1476C9800077EA10 /* tweet.m in Sources */,
+				5B35B87A1476CC810077EA10 /* TweetTableViewController.m in Sources */,
+				7C4B256A147709B4000A3799 /* TweetDetailViewController.m in Sources */,
+				7C4B257514770AF7000A3799 /* MapPoint.m in Sources */,
+				7C4B257614770AF7000A3799 /* MapPointStore.m in Sources */,
+				7CE873AF1477149E0056A760 /* TweetStore.m in Sources */,
+				7CB6F78814853FAF000FACAB /* TweetMapViewController.m in Sources */,
+				7C87B6B31499364800C84A9C /* AccountSelectorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CE4A13D146B4D5500B90BD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE4A13E146B4D5500B90BD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CE4A146146B4D5600B90BD3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE4A147146B4D5600B90BD3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CE4A149146B4D5600B90BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CE4A14A146B4D5600B90BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CE4A14C146B4D5600B90BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jata/jata-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/libraries/RestKit-RestKit-991bd5c/Build\"";
+				INFOPLIST_FILE = "jata/jata-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CE4A14D146B4D5600B90BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jata/jata-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/libraries/RestKit-RestKit-991bd5c/Build\"";
+				INFOPLIST_FILE = "jata/jata-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CE4A12A146B4D5500B90BD3 /* Build configuration list for PBXProject "jata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE4A149146B4D5600B90BD3 /* Debug */,
+				7CE4A14A146B4D5600B90BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE4A14B146B4D5600B90BD3 /* Build configuration list for PBXNativeTarget "jata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE4A14C146B4D5600B90BD3 /* Debug */,
+				7CE4A14D146B4D5600B90BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CE4A127146B4D5500B90BD3 /* Project object */;
+}

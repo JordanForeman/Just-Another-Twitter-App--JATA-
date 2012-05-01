@@ -1,0 +1,890 @@
+Tjata
+v4
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/jata.app/ResourceRules.plist
+cProcessInfoPlistFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Info.plist jata/jata-Info.plist
+cProcessPCH /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch.pth jata/jata-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/jataAppDelegate.o /Volumes/Students/foremanj1/iOS/jata/jata/jataAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/main.o /Volumes/Students/foremanj1/iOS/jata/jata/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/tweet.o /Volumes/Students/foremanj1/iOS/jata/jata/tweet.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetTableViewController.o /Volumes/Students/foremanj1/iOS/jata/jata/TweetTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetDetailViewController.o /Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPoint.o /Volumes/Students/foremanj1/iOS/jata/jata/MapPoint.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPointStore.o /Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetStore.o /Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetMapViewController.o /Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/AccountSelectorViewController.o /Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/jata normal armv7
+cGenerateDSYMFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app.dSYM /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/jata
+cCopyStringsFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/en.lproj/InfoPlist.strings jata/en.lproj/InfoPlist.strings
+cCompileXIB /Volumes/Students/foremanj1/iOS/jata/jata/en.lproj/MainWindow.xib
+cCompileXIB /Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.xib
+cCompileXIB /Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.xib
+cCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Map.png jata/../Map.png
+cCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/splash.png jata/../splash.png
+cCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Map@2x.png jata/../Map@2x.png
+cCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/splash@2x.png jata/../splash@2x.png
+cCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Timeline.png jata/../Timeline.png
+cCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Default.png jata/../Default.png
+cCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Timeline@2x.png jata/../Timeline@2x.png
+cCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Default@2x.png jata/../Default@2x.png
+cCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png jata/../icon.png
+cCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png jata/../icon@2x.png
+cProcessProductPackaging "/Users/cslab/Library/MobileDevice/Provisioning Profiles/AB24A579-C180-4BC3-89B5-678EA2238EFF.mobileprovision" /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/cslab/Library/MobileDevice/Provisioning Profiles/AB24A579-C180-4BC3-89B5-678EA2238EFF.mobileprovision" /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/embedded.mobileprovision
+cTouch /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata.xcent
+cCodeSign /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004ED4E3B20000000000000110
+t1322574770
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004ED4E2E5000000000032AC00
+t1322574565
+s3320832
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ED4E2E500000000003AB0A0
+t1322574565
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004ED4E2E50000000000076750
+t1322574565
+s485200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ED4E2E50000000000529540
+t1322574565
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004E78098C00000000000AF270
+t1316489612
+s717424
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004ED4E2E5000000000006E530
+t1322574565
+s451888
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004E72F29300000000000C33E0
+t1316156051
+s799712
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Twitter.framework/Twitter
+c000000004E780ACA0000000000030E20
+t1316489930
+s200224
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ED4E2E5000000000078BE50
+t1322574565
+s7913040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/lib/libxml2.dylib
+c000000004E72F24100000000001F2D30
+t1316155969
+s2043184
+
+N/Users/cslab/Library/MobileDevice/Provisioning Profiles/AB24A579-C180-4BC3-89B5-678EA2238EFF.mobileprovision
+c000000004EE8D3BF0000000000006B4C
+t1323881407
+s27468
+
+N/Volumes/Students/foremanj1/iOS/jata/AccountSelectorViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app
+t1323920646
+s16384
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app.dSYM
+t1323920646
+s16384
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Default.png
+t1323881546
+s316125
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Default@2x.png
+t1323881547
+s1118657
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Info.plist
+t1323891200
+s1179
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Map.png
+t1323881545
+s5379
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Map@2x.png
+t1323881545
+s10080
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/PkgInfo
+t1323891200
+s8
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/ResourceRules.plist
+t1323881542
+s485
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Timeline.png
+t1323881546
+s3707
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Timeline@2x.png
+t1323881546
+s4394
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/TweetDetailViewController.nib
+t1323885770
+s3944
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/TweetMapViewController.nib
+t1323881603
+s1965
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/embedded.mobileprovision
+t1323881547
+s27468
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/en.lproj/InfoPlist.strings
+t1323881545
+s42
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/en.lproj/MainWindow.nib
+t1323881603
+s998
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png
+t1323891200
+s10055
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png
+t1323891200
+s22155
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/jata
+t1323920589
+s65024
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/splash.png
+t1323881546
+s316125
+
+N/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/splash@2x.png
+t1323881547
+s1118657
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/AccountSelectorViewController.o
+t1323892619
+s44264
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPoint.o
+t1323884528
+s14388
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPointStore.o
+t1323884530
+s8316
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetDetailViewController.o
+t1323885711
+s46508
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetMapViewController.o
+t1323884562
+s47604
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetStore.o
+t1323920438
+s9724
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetTableViewController.o
+t1323920438
+s48880
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/jata.LinkFileList
+c000000004EE8FF8B00000000000004AB
+t1323892619
+s1195
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/jataAppDelegate.o
+t1323920587
+s63488
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/main.o
+t1323882676
+s3136
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/tweet.o
+t1323884518
+s13652
+
+N/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata.xcent
+t1323891200
+s406
+
+N/Volumes/Students/foremanj1/iOS/jata/icon.png
+c000000004EE8F8850000000000002393
+t1323890821
+s9107
+
+N/Volumes/Students/foremanj1/iOS/jata/icon@2x.png
+c000000004EE8F88300000000000050AB
+t1323890819
+s20651
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon.png
+c000000004EE8F8850000000000002393
+t1323890821
+s9107
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon@2x.png
+c000000004EE8F88300000000000050AB
+t1323890819
+s20651
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../Default.png
+c000000004EDEEC54000000000004E36D
+t1323232340
+s320365
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../Default@2x.png
+c000000004EDEEC570000000000112F61
+t1323232343
+s1126241
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../Map.png
+c000000004EDEEC53000000000000151A
+t1323232339
+s5402
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../Map@2x.png
+c000000004EDEEC530000000000002778
+t1323232339
+s10104
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../Timeline.png
+c000000004EDEEC570000000000000E01
+t1323232343
+s3585
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../Timeline@2x.png
+c000000004EDEEC580000000000000FD4
+t1323232344
+s4052
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../icon.png
+c000000004EE8F8850000000000002393
+t1323890821
+s9107
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../icon@2x.png
+c000000004EE8F88300000000000050AB
+t1323890819
+s20651
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../splash.png
+c000000004EDEEC54000000000004E36D
+t1323232340
+s320365
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/../splash@2x.png
+c000000004EDEEC570000000000112F61
+t1323232343
+s1126241
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.h
+c000000004EE8FE6700000000000000FD
+t1323892327
+s253
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m
+c000000004EE8FED6000000000000119C
+t1323892438
+s4508
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/MapPoint.h
+c000000004ED508BF0000000000000303
+t1322584255
+s771
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/MapPoint.m
+c000000004ED5094E00000000000006AD
+t1322584398
+s1709
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.h
+c000000004EC6DAA90000000000000189
+t1321654953
+s393
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m
+c000000004EC6DB0400000000000003D6
+t1321655044
+s982
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.h
+c000000004EE8DC770000000000000247
+t1323883639
+s583
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.m
+c000000004EE8E3C600000000000007C5
+t1323885510
+s1989
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.xib
+c000000004EE8E44F000000000000500D
+t1323885647
+s20493
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.h
+c000000004EE0E96F0000000000000247
+t1323362671
+s583
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m
+c000000004EE0E9900000000000000C81
+t1323362704
+s3201
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.xib
+c000000004EE1067100000000000026C9
+t1323370097
+s9929
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.h
+c000000004EE689D200000000000001ED
+t1323731410
+s493
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m
+c000000004EE9695100000000000005A0
+t1323919697
+s1440
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/TweetTableViewController.h
+c000000004EE8FCC30000000000000161
+t1323891907
+s353
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/TweetTableViewController.m
+c000000004EE969C90000000000000C22
+t1323919817
+s3106
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/en.lproj/InfoPlist.strings
+c000000004EBB1572000000000000002D
+t1320883570
+s45
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/en.lproj/MainWindow.xib
+c000000004EBB157300000000000020F1
+t1320883571
+s8433
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/jata-Prefix.pch
+c000000004EBB1573000000000000013A
+t1320883571
+s314
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/jataAppDelegate.h
+c000000004EE8FB880000000000000170
+t1323891592
+s368
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/jataAppDelegate.m
+c000000004EE96F05000000000000152D
+t1323921157
+s5421
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/main.m
+c000000004EBB1572000000000000015E
+t1320883570
+s350
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/tweet.h
+c000000004EE8DEFD000000000000031C
+t1323884285
+s796
+
+N/Volumes/Students/foremanj1/iOS/jata/jata/tweet.m
+c000000004EE8DFDF00000000000008B4
+t1323884511
+s2228
+
+N/var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch.pth
+t1323881601
+s3865872
+
+Njata/jata-Info.plist
+c000000004EE8F9C3000000000000060F
+t1323891139
+s1551
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/AccountSelectorViewController.m
+r0
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m
+r0
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/jata/MapPoint.m
+r0
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m
+r0
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.m
+r0
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m
+r0
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m
+r0
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/jata/TweetTableViewController.m
+r0
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/jata/jataAppDelegate.m
+r0
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/jata/main.m
+r0
+
+CBuild AST from /Volumes/Students/foremanj1/iOS/jata/jata/tweet.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesce6e35caa699b441^e5b89bcaa699b441^-257"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Jordan Foreman (HKNZ2G86DR)', 'iPhone Developer: Mike Cornell (49ND568JAS)' -- 'iPhone Developer: Jordan Foreman (HKNZ2G86DR)' will be used.1(21%IDEActivityLogMessage2@249"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Jordan Foreman (HKNZ2G86DR)', 'iPhone Developer: Mike Cornell (49ND568JAS)' -- 'iPhone Developer: Jordan Foreman (HKNZ2G86DR)' will be used.-345614026#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies36"D4D43A7D-4011-4834-A41B-9636A5455CF4-
+
+CCodeSign /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app
+s345614028.547021
+e345614031.723415
+r1
+xCodeSign
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"CodeSign build/Debug-iphoneos/jata.appb9178ccca699b441^1e32b9cfa699b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/0000000000000000^673"CodeSign build/Debug-iphoneos/jata.app    cd /Volumes/Students/foremanj1/iOS/jata    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Jordan Foreman (HKNZ2G86DR)" --resource-rules=/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/ResourceRules.plist --entitlements /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata.xcent /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app36"2D3D94CB-FE69-4823-8276-CB76E36B0150-
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/AccountSelectorViewController.o /Volumes/Students/foremanj1/iOS/jata/AccountSelectorViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/AccountSelectorViewController.o /Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345585477.516246
+e345585478.045854
+r1
+xCompileC
+xbuild/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/AccountSelectorViewController.o
+x/Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m:86:2: warning: #warning Potentially incomplete method implementation. [-W#warnings,7]
+o #warning Potentially incomplete method implementation.
+o  ^
+o/Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m:93:2: warning: #warning Incomplete method implementation. [-W#warnings,7]
+o #warning Incomplete method implementation.
+o  ^
+o2 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m1c4384453799b441^f5bc0b463799b441^-438"/Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m:86:2: warning: #warning Potentially incomplete method implementation. [-W#warnings,7] #warning Potentially incomplete method implementation.  ^/Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m:93:2: warning: #warning Incomplete method implementation. [-W#warnings,7] #warning Incomplete method implementation.  ^2 warnings generated.2(21%IDEActivityLogMessage2@54"#warning Potentially incomplete method implementation.-345585477#0#160#-1#-23%DVTTextDocumentLocation3@89"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m0000000000000000^85#1#85#1#18446744073709551615#0#18"#warning Directive--2@42"#warning Incomplete method implementation.-345585477#220#148#-1#-3@89"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m0000000000000000^92#1#92#1#18446744073709551615#0#18"#warning Directive--0#0#0#-19%DVTDocumentLocation4@89"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m0000000000000000^2513"CompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/AccountSelectorViewController.o jata/AccountSelectorViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -include /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch -MMD -MT dependencies -MF /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/AccountSelectorViewController.d -c /Volumes/Students/foremanj1/iOS/jata/jata/AccountSelectorViewController.m -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/AccountSelectorViewController.o36"BE3DB7F2-5C74-47E4-8757-E7967D23F20C-
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPoint.o /Volumes/Students/foremanj1/iOS/jata/jata/MapPoint.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345577376.387893
+e345577386.823418
+r1
+xCompileC
+xbuild/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPoint.o
+x/Volumes/Students/foremanj1/iOS/jata/jata/MapPoint.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Volumes/Students/foremanj1/iOS/jata/jata/MapPoint.m6f6363a01799b441^8cbafaaa1799b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/MapPoint.m0000000000000000^2408"CompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPoint.o jata/MapPoint.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -include /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch -MMD -MT dependencies -MF /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPoint.d -c /Volumes/Students/foremanj1/iOS/jata/jata/MapPoint.m -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPoint.o36"8ED7CA8C-BB19-4989-B985-AA9055C2D223-
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPointStore.o /Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345577383.576446
+e345577388.439787
+r1
+xCompileC
+xbuild/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPointStore.o
+x/Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m:62:1:{62:4-62:8}: warning: conflicting distributed object modifiers on return type in implementation of 'release' [-Wdistributed-object-modifiers,3]
+o - (void)release
+o ^  ~~~~
+o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:36:1:{36:11-36:15}: note: previous declaration is here
+o - (oneway void)release NS_AUTOMATED_REFCOUNT_UNAVAILABLE;
+o ^         ~~~~
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m3ba993a71799b441^d99770ac1799b441^-520"/Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m:62:1:{62:4-62:8}: warning: conflicting distributed object modifiers on return type in implementation of 'release' [-Wdistributed-object-modifiers,3] - (void)release ^  ~~~~/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:36:1:{36:11-36:15}: note: previous declaration is here - (oneway void)release NS_AUTOMATED_REFCOUNT_UNAVAILABLE; ^         ~~~~1 warning generated.1(21%IDEActivityLogMessage2@86"Conflicting distributed object modifiers on return type in implementation of 'release'-345577387#0#207#1(2@28"Previous declaration is here-345577387#233#191#-0#-23%DVTTextDocumentLocation3@151"file://localhost/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^35#0#35#0#18446744073709551615#0#30"Apple LLVM compiler 3.0 Notice1(3@151"file://localhost/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^35#10#35#14#18446744073709551615#0#-1#-3@73"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m0000000000000000^61#0#61#0#18446744073709551615#0#14"Semantic Issue1(3@73"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m0000000000000000^61#3#61#7#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@73"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m0000000000000000^2433"CompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPointStore.o jata/MapPointStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -include /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch -MMD -MT dependencies -MF /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPointStore.d -c /Volumes/Students/foremanj1/iOS/jata/jata/MapPointStore.m -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/MapPointStore.o36"6A2B5946-8BFA-4665-92E3-A306DB0037D9-
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetDetailViewController.o /Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345578568.919144
+e345578569.070593
+r1
+xCompileC
+xbuild/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetDetailViewController.o
+x/Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.m5262eb481c99b441^731212491c99b441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.m0000000000000000^2493"CompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetDetailViewController.o jata/TweetDetailViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -include /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch -MMD -MT dependencies -MF /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetDetailViewController.d -c /Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.m -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetDetailViewController.o36"7EFABAE7-6A8C-4998-8CDC-F69C9BD25A42-
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetMapViewController.o /Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345577405.805564
+e345577420.197009
+r1
+xCompileC
+xbuild/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetMapViewController.o
+x/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m:112:26:{112:26-112:30}: warning: sending 'TweetMapViewController *' to parameter of incompatible type 'id<MKMapViewDelegate>' [3]
+o     [mapView setDelegate:self]; //TODO: fix this
+o                          ^~~~
+o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKMapView.h:47:54: note: passing argument to parameter 'delegate' here [3]
+o @property (nonatomic, assign) id <MKMapViewDelegate> delegate;
+o                                                      ^
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m1f4ccebd1799b441^db6e32cc1799b441^-615"/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m:112:26:{112:26-112:30}: warning: sending 'TweetMapViewController *' to parameter of incompatible type 'id<MKMapViewDelegate>' [3]     [mapView setDelegate:self]; //TODO: fix this                          ^~~~/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKMapView.h:47:54: note: passing argument to parameter 'delegate' here [3] @property (nonatomic, assign) id <MKMapViewDelegate> delegate;                                                      ^1 warning generated.1(21%IDEActivityLogMessage2@92"Sending 'TweetMapViewController *' to parameter of incompatible type 'id<MKMapViewDelegate>'-345577419#0#197#1(2@45"Passing argument to parameter 'delegate' here-345577419#278#196#-0#-23%DVTTextDocumentLocation3@148"file://localhost/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKMapView.h0000000000000000^46#53#46#53#18446744073709551615#0#14"Semantic Issue--1#-3@82"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m0000000000000000^111#25#111#25#18446744073709551615#0#14"Semantic Issue1(3@82"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m0000000000000000^111#25#111#29#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@82"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m0000000000000000^2478"CompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetMapViewController.o jata/TweetMapViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -include /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch -MMD -MT dependencies -MF /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetMapViewController.d -c /Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.m -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetMapViewController.o36"F77F5819-4A90-4769-AB91-F0676C7F35FB-
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetStore.o /Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345613297.440199
+e345613297.570992
+r1
+xCompileC
+xbuild/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetStore.o
+x/Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m:87:1:{87:4-87:8}: warning: conflicting distributed object modifiers on return type in implementation of 'release' [-Wdistributed-object-modifiers,3]
+o - (void)release //TODO: Can I fix this?
+o ^  ~~~~
+o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:36:1:{36:11-36:15}: note: previous declaration is here
+o - (oneway void)release NS_AUTOMATED_REFCOUNT_UNAVAILABLE;
+o ^         ~~~~
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.ma3ce70f1a399b441^2bdc92f1a399b441^-541"/Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m:87:1:{87:4-87:8}: warning: conflicting distributed object modifiers on return type in implementation of 'release' [-Wdistributed-object-modifiers,3] - (void)release //TODO: Can I fix this? ^  ~~~~/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:36:1:{36:11-36:15}: note: previous declaration is here - (oneway void)release NS_AUTOMATED_REFCOUNT_UNAVAILABLE; ^         ~~~~1 warning generated.1(21%IDEActivityLogMessage2@86"Conflicting distributed object modifiers on return type in implementation of 'release'-345613297#0#204#1(2@28"Previous declaration is here-345613297#254#191#-0#-23%DVTTextDocumentLocation3@151"file://localhost/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^35#0#35#0#18446744073709551615#0#30"Apple LLVM compiler 3.0 Notice1(3@151"file://localhost/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^35#10#35#14#18446744073709551615#0#-1#-3@70"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m0000000000000000^86#0#86#0#18446744073709551615#0#14"Semantic Issue1(3@70"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m0000000000000000^86#3#86#7#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@70"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m0000000000000000^2418"CompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetStore.o jata/TweetStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -include /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch -MMD -MT dependencies -MF /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetStore.d -c /Volumes/Students/foremanj1/iOS/jata/jata/TweetStore.m -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetStore.o36"1063DE92-46F0-476E-8299-9772C8BD2164-
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetTableViewController.o /Volumes/Students/foremanj1/iOS/jata/jata/TweetTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345613297.437900
+e345613297.613445
+r1
+xCompileC
+xbuild/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetTableViewController.o
+x/Volumes/Students/foremanj1/iOS/jata/jata/TweetTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Volumes/Students/foremanj1/iOS/jata/jata/TweetTableViewController.m622f70f1a399b441^a20c9df1a399b441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/TweetTableViewController.m0000000000000000^2488"CompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetTableViewController.o jata/TweetTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -include /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch -MMD -MT dependencies -MF /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetTableViewController.d -c /Volumes/Students/foremanj1/iOS/jata/jata/TweetTableViewController.m -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/TweetTableViewController.o36"0F1E1AC9-F55A-43B9-88A6-8E9A83F4D4F9-
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/jataAppDelegate.o /Volumes/Students/foremanj1/iOS/jata/jata/jataAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345614026.641910
+e345614027.502114
+r1
+xCompileC
+xbuild/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/jataAppDelegate.o
+x/Volumes/Students/foremanj1/iOS/jata/jata/jataAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Volumes/Students/foremanj1/iOS/jata/jata/jataAppDelegate.mb669a4caa699b441^9c8a80cba699b441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/jataAppDelegate.m0000000000000000^2443"CompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/jataAppDelegate.o jata/jataAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -include /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch -MMD -MT dependencies -MF /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/jataAppDelegate.d -c /Volumes/Students/foremanj1/iOS/jata/jata/jataAppDelegate.m -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/jataAppDelegate.o36"D0977B11-38A7-4BF1-94F7-4C31C8956DBC-
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/main.o /Volumes/Students/foremanj1/iOS/jata/jata/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345575533.187760
+e345575534.602183
+r1
+xCompileC
+xbuild/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/main.o
+x/Volumes/Students/foremanj1/iOS/jata/jata/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Volumes/Students/foremanj1/iOS/jata/jata/main.m5227306d1099b441^0f299a6e1099b441^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/main.m0000000000000000^2388"CompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/main.o jata/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -include /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch -MMD -MT dependencies -MF /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/main.d -c /Volumes/Students/foremanj1/iOS/jata/jata/main.m -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/main.o36"BE76EBF2-D61F-4F92-BD96-C17076EF7988-
+
+CCompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/tweet.o /Volumes/Students/foremanj1/iOS/jata/jata/tweet.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345577371.626341
+e345577376.386596
+r1
+xCompileC
+xbuild/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/tweet.o
+x/Volumes/Students/foremanj1/iOS/jata/jata/tweet.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Volumes/Students/foremanj1/iOS/jata/jata/tweet.m166ba09b1799b441^000163a01799b441^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/tweet.m0000000000000000^2393"CompileC build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/tweet.o jata/tweet.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -include /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch -MMD -MT dependencies -MF /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/tweet.d -c /Volumes/Students/foremanj1/iOS/jata/jata/tweet.m -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/tweet.o36"59C89763-9E42-4757-8581-5899D275574C-
+
+CCompileXIB /Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.xib
+s345578569.451056
+e345578570.104630
+r1
+xCompileXIB
+x/Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compiling /Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.xibdb8873491c99b441^e7c81a4a1c99b441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.xib0000000000000000^672"CompileXIB jata/TweetDetailViewController.xib    cd /Volumes/Students/foremanj1/iOS/jata    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/TweetDetailViewController.nib /Volumes/Students/foremanj1/iOS/jata/jata/TweetDetailViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"A3C78D01-C370-4FE9-8AD3-81CEAA856BAB-
+
+CCompileXIB /Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.xib
+s345574403.202450
+e345574403.288061
+r1
+xCompileXIB
+x/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compiling /Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.xib93e233030c99b441^d3be49030c99b441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.xib0000000000000000^663"CompileXIB jata/TweetMapViewController.xib    cd /Volumes/Students/foremanj1/iOS/jata    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/TweetMapViewController.nib /Volumes/Students/foremanj1/iOS/jata/jata/TweetMapViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"F1687A3E-260D-4BAC-BA57-BD1A94AC44D5-
+
+CCompileXIB /Volumes/Students/foremanj1/iOS/jata/jata/en.lproj/MainWindow.xib
+s345574403.202137
+e345574403.745516
+r1
+xCompileXIB
+x/Volumes/Students/foremanj1/iOS/jata/jata/en.lproj/MainWindow.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compiling /Volumes/Students/foremanj1/iOS/jata/jata/en.lproj/MainWindow.xibb3cf33030c99b441^77dabe030c99b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/en.lproj/MainWindow.xib0000000000000000^654"CompileXIB jata/en.lproj/MainWindow.xib    cd /Volumes/Students/foremanj1/iOS/jata    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/en.lproj/MainWindow.nib /Volumes/Students/foremanj1/iOS/jata/jata/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"1623E5FD-8CE4-4D0C-B1D3-2C1FBEBD3B3C-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Default.png jata/../Default.png
+s345574404.028370
+e345574404.606853
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Default.png
+xjata/../Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"CopyPNGFile build/Debug-iphoneos/jata.app/Default.png jata/../Default.png695107040c99b441^0c5b9b040c99b441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../Default.png0000000000000000^541"CopyPNGFile build/Debug-iphoneos/jata.app/Default.png jata/../Default.png    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Students/foremanj1/iOS/jata/jata/../Default.png /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Default.png36"F239D159-F9A1-44F0-8555-F5C67CD5EC09-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Default@2x.png jata/../Default@2x.png
+s345574404.050441
+e345574405.476662
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Default@2x.png
+xjata/../Default@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"CopyPNGFile build/Debug-iphoneos/jata.app/Default@2x.png jata/../Default@2x.png3cf90c040c99b441^1c077a050c99b441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../Default@2x.png0000000000000000^561"CopyPNGFile "build/Debug-iphoneos/jata.app/Default@2x.png" "jata/../Default@2x.png"    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/Students/foremanj1/iOS/jata/jata/../Default@2x.png" "/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Default@2x.png"36"575A83EE-0C7F-4F3D-987C-DCD64F71BD73-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Map.png jata/../Map.png
+s345574403.254380
+e345574403.732524
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Map.png
+xjata/../Map.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CopyPNGFile build/Debug-iphoneos/jata.app/Map.png jata/../Map.png1f2e41030c99b441^e486bb030c99b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../Map.png0000000000000000^525"CopyPNGFile build/Debug-iphoneos/jata.app/Map.png jata/../Map.png    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Students/foremanj1/iOS/jata/jata/../Map.png /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Map.png36"FC4FF43F-6086-4CCA-B148-170D407554A9-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Map@2x.png jata/../Map@2x.png
+s345574403.289900
+e345574403.754473
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Map@2x.png
+xjata/../Map@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"CopyPNGFile build/Debug-iphoneos/jata.app/Map@2x.png jata/../Map@2x.png56474a030c99b441^7825c1030c99b441^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../Map@2x.png0000000000000000^545"CopyPNGFile "build/Debug-iphoneos/jata.app/Map@2x.png" "jata/../Map@2x.png"    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/Students/foremanj1/iOS/jata/jata/../Map@2x.png" "/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Map@2x.png"36"A1A0CB44-D41B-47F9-AB3B-91751A5B9776-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Timeline.png jata/../Timeline.png
+s345574403.756235
+e345574404.027077
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Timeline.png
+xjata/../Timeline.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"CopyPNGFile build/Debug-iphoneos/jata.app/Timeline.png jata/../Timeline.pngf4a7c1030c99b441^85ee06040c99b441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../Timeline.png0000000000000000^545"CopyPNGFile build/Debug-iphoneos/jata.app/Timeline.png jata/../Timeline.png    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Students/foremanj1/iOS/jata/jata/../Timeline.png /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Timeline.png36"D68DF1D1-EEE2-4D1E-A9FE-29307545D89D-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Timeline@2x.png jata/../Timeline@2x.png
+s345574403.891388
+e345574404.049185
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Timeline@2x.png
+xjata/../Timeline@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"CopyPNGFile build/Debug-iphoneos/jata.app/Timeline@2x.png jata/../Timeline@2x.png4641e4030c99b441^96970c040c99b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../Timeline@2x.png0000000000000000^565"CopyPNGFile "build/Debug-iphoneos/jata.app/Timeline@2x.png" "jata/../Timeline@2x.png"    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/Students/foremanj1/iOS/jata/jata/../Timeline@2x.png" "/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Timeline@2x.png"36"9CD4E165-D87C-466B-AE71-3C993B46A457-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png "jata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon.png"
+s345583816.590008
+e345583816.681186
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png
+xjata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile build/Debug-iphoneos/jata.app/icon.png "jata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon.png"7d2297c83099b441^0262aec83099b441^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../../../../../Students-1/foremanj1/iOS/tweeter%20stuff/icon.png0000000000000000^635"CopyPNGFile build/Debug-iphoneos/jata.app/icon.png "jata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon.png"    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/Students/foremanj1/iOS/jata/jata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon.png" /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png36"2762D5EC-38AA-403D-A41E-608AD38258B2-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png icon.png
+s345583816.590076
+e345583816.660848
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png
+xicon.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"CopyPNGFile build/Debug-iphoneos/jata.app/icon.png icon.png312497c83099b441^dc2da9c83099b441^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Volumes/Students/foremanj1/iOS/jata/icon.png0000000000000000^513"CopyPNGFile build/Debug-iphoneos/jata.app/icon.png icon.png    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Students/foremanj1/iOS/jata/icon.png /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png36"18E2B593-CEE4-4B83-8104-11E8AFC62F58-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png jata/../icon.png
+s345584058.507223
+e345584058.571043
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png
+xjata/../icon.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"CopyPNGFile build/Debug-iphoneos/jata.app/icon.png jata/../icon.pngace681ba3199b441^553092ba3199b441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../icon.png0000000000000000^529"CopyPNGFile build/Debug-iphoneos/jata.app/icon.png jata/../icon.png    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Students/foremanj1/iOS/jata/jata/../icon.png /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon.png36"593F4B1C-0D4A-4B05-9FE6-CDE54213DABE-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png "jata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon@2x.png"
+s345583816.590538
+e345583816.718342
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png
+xjata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CopyPNGFile build/Debug-iphoneos/jata.app/icon@2x.png "jata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon@2x.png"3b3997c83099b441^54e5b7c83099b441^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../../../../../Students-1/foremanj1/iOS/tweeter%20stuff/icon@2x.png0000000000000000^651"CopyPNGFile "build/Debug-iphoneos/jata.app/icon@2x.png" "jata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon@2x.png"    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/Students/foremanj1/iOS/jata/jata/../../../../../Students-1/foremanj1/iOS/tweeter stuff/icon@2x.png" "/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png"36"02D117F5-301D-4A88-AD03-25D6259DBF77-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png icon@2x.png
+s345583816.591633
+e345583816.701347
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png
+xicon@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CopyPNGFile build/Debug-iphoneos/jata.app/icon@2x.png icon@2x.png998497c83099b441^f08bb3c83099b441^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Volumes/Students/foremanj1/iOS/jata/icon@2x.png0000000000000000^533"CopyPNGFile "build/Debug-iphoneos/jata.app/icon@2x.png" "icon@2x.png"    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/Students/foremanj1/iOS/jata/icon@2x.png" "/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png"36"55AC73CF-5809-491A-93BA-DBB2DF01AD4D-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png jata/../icon@2x.png
+s345584058.507302
+e345584058.604697
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png
+xjata/../icon@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"CopyPNGFile build/Debug-iphoneos/jata.app/icon@2x.png jata/../icon@2x.png46ea81ba3199b441^5bcd9aba3199b441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../icon@2x.png0000000000000000^549"CopyPNGFile "build/Debug-iphoneos/jata.app/icon@2x.png" "jata/../icon@2x.png"    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/Students/foremanj1/iOS/jata/jata/../icon@2x.png" "/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/icon@2x.png"36"5B71BDA3-7168-4382-998D-C5804ABA7FCF-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/splash.png jata/../splash.png
+s345574403.733769
+e345574404.393360
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/splash.png
+xjata/../splash.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"CopyPNGFile build/Debug-iphoneos/jata.app/splash.png jata/../splash.png1de6bb030c99b441^b3b364040c99b441^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../splash.png0000000000000000^537"CopyPNGFile build/Debug-iphoneos/jata.app/splash.png jata/../splash.png    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Students/foremanj1/iOS/jata/jata/../splash.png /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/splash.png36"5163DDDF-9E38-4C3C-BD80-30F6BF0260AD-
+
+CCopyPNGFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/splash@2x.png jata/../splash@2x.png
+s345574403.746976
+e345574405.308351
+r1
+xCopyPNGFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/splash@2x.png
+xjata/../splash@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"CopyPNGFile build/Debug-iphoneos/jata.app/splash@2x.png jata/../splash@2x.png6057bf030c99b441^7cf04e050c99b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/../splash@2x.png0000000000000000^557"CopyPNGFile "build/Debug-iphoneos/jata.app/splash@2x.png" "jata/../splash@2x.png"    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/Students/foremanj1/iOS/jata/jata/../splash@2x.png" "/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/splash@2x.png"36"9C3A13F2-ACA5-4D35-9379-F6300EA8437D-
+
+CCopyStringsFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/en.lproj/InfoPlist.strings jata/en.lproj/InfoPlist.strings
+s345574403.202102
+e345574403.253068
+r1
+xCopyStringsFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/en.lproj/InfoPlist.strings
+xjata/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy jata/en.lproj/InfoPlist.stringsd1cc33030c99b441^86c940030c99b441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/en.lproj/InfoPlist.strings0000000000000000^474"CopyStringsFile build/Debug-iphoneos/jata.app/en.lproj/InfoPlist.strings jata/en.lproj/InfoPlist.strings    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/en.lproj -- jata/en.lproj/InfoPlist.strings36"B70DF2DC-7F7F-41DB-87F1-EA8107A16CC8-
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/jata.app/ResourceRules.plist
+s345574400.701259
+e345574400.763022
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/jata.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/jata.app/ResourceRules.plist3693b3000c99b441^ce55c3000c99b441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/ResourceRules.plist00f40053dcffdf42^588"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/jata.app/ResourceRules.plist    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app36"8844856A-E62E-467E-BB65-790E08628B1F-
+
+CGenerateDSYMFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app.dSYM /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/jata
+s345614028.091624
+e345614028.350541
+r1
+xGenerateDSYMFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app.dSYM
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/jata
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Generating /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app.dSYM238417cca699b441^fdbc59cca699b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app.dSYM/0000000000000000^434"GenerateDSYMFile build/Debug-iphoneos/jata.app.dSYM build/Debug-iphoneos/jata.app/jata    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/jata -o /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app.dSYM36"5C75E901-904D-4065-A497-E85E6F5D2961-
+
+CLd /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/jata normal armv7
+s345614027.509444
+e345614028.084090
+r1
+xLd
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/jata
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Link /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/jata207a82cba699b441^db8615cca699b441^---0#0#0#--1012"Ld build/Debug-iphoneos/jata.app/jata normal armv7    cd /Volumes/Students/foremanj1/iOS/jata    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -filelist /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/Objects-normal/armv7/jata.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=4.3 -framework Twitter -framework MapKit -framework CoreLocation -framework CFNetwork -lxml2 -framework MobileCoreServices -framework SystemConfiguration -framework UIKit -framework Foundation -framework CoreGraphics -o /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/jata36"759C558B-E4B1-4673-ADE4-FB146C28EEBE-
+
+CProcessInfoPlistFile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Info.plist jata/jata-Info.plist
+s345584058.170058
+e345584058.214661
+r1
+xProcessInfoPlistFile
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Info.plist
+xjata/jata-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process jata/jata-Info.plist20982bba3199b441^5ef736ba3199b441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/jata-Info.plist0000000000000000^630"ProcessInfoPlistFile build/Debug-iphoneos/jata.app/Info.plist jata/jata-Info.plist    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility jata/jata-Info.plist -genpkginfo /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/ResourceRules.plist -o /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/Info.plist36"D36BC553-098C-44A4-BB2A-11DFC56F1189-
+
+CProcessPCH /Users/cslab/Library/Developer/Xcode/DerivedData/jata-bjyoxxfuyypvrwaosyspztahclty/Index/PrecompiledHeaders/jata-Prefix-bzvsnarpmrndicbhwyfpvwftlokw_ast/jata-Prefix.pch.pth jata/jata-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch.pth jata/jata-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345574400.782577
+e345574401.489649
+r1
+xProcessPCH
+x/var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch.pth
+xjata/jata-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile jata/jata-Prefix.pch226cc8000c99b441^255b7d010c99b441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Volumes/Students/foremanj1/iOS/jata/jata/jata-Prefix.pch0000000000000000^2431"ProcessPCH /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch.pth jata/jata-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Students/foremanj1/iOS/jata    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-generated-files.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-own-target-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-all-target-headers.hmap -iquote /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata-project-headers.hmap -I/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/include -I/Volumes/Students/foremanj1/iOS/jata/libraries/RestKit-RestKit-991bd5c/Build -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources/armv7 -I/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/DerivedSources -F/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos -c /Volumes/Students/foremanj1/iOS/jata/jata/jata-Prefix.pch -o /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/rh/3rz47_0n2_q7fvbj1hh4lfzr0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/jata-Prefix-hkbuiigkfogvgvdraehdokwzdkzc/jata-Prefix.pch.d36"C6F89913-684D-4F8B-9C52-E5CA36AAEE6E-
+
+CProcessProductPackaging "/Users/cslab/Library/MobileDevice/Provisioning Profiles/AB24A579-C180-4BC3-89B5-678EA2238EFF.mobileprovision" /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/embedded.mobileprovision
+s345574405.534725
+e345574405.574345
+r1
+xProcessProductPackaging
+x/Users/cslab/Library/MobileDevice/Provisioning Profiles/AB24A579-C180-4BC3-89B5-678EA2238EFF.mobileprovision
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection189"ProcessProductPackaging "/Users/cslab/Library/MobileDevice/Provisioning Profiles/AB24A579-C180-4BC3-89B5-678EA2238EFF.mobileprovision" build/Debug-iphoneos/jata.app/embedded.mobileprovision49f288050c99b441^bc0893050c99b441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/embedded.mobileprovision0000000000000000^600"ProcessProductPackaging "/Users/cslab/Library/MobileDevice/Provisioning Profiles/AB24A579-C180-4BC3-89B5-678EA2238EFF.mobileprovision" build/Debug-iphoneos/jata.app/embedded.mobileprovision    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/cslab/Library/MobileDevice/Provisioning Profiles/AB24A579-C180-4BC3-89B5-678EA2238EFF.mobileprovision" -o /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app/embedded.mobileprovision36"F0BFF082-A40E-40FF-ACC4-8C9D298A54F0-
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata.xcent
+s345584058.648094
+e345584058.702013
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/jata.build/Debug-iphoneos/jata.build/jata.xcenta1f8a5ba3199b441^95b7b3ba3199b441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata.xcent0000000000000000^580"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/jata.build/Debug-iphoneos/jata.build/jata.xcent    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/Students/foremanj1/iOS/jata/build/jata.build/Debug-iphoneos/jata.build/jata.xcent36"06683F61-755E-4AC0-947A-E067657B0B65-
+
+CTouch /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app
+s345614028.389467
+e345614028.529380
+r1
+xTouch
+x/Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Touch /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app5dc063cca699b441^6e8687cca699b441^---0#0#0#--293"Touch build/Debug-iphoneos/jata.app    cd /Volumes/Students/foremanj1/iOS/jata    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/Students/foremanj1/iOS/jata/build/Debug-iphoneos/jata.app36"8B4FDA6F-1A1F-4215-8C86-20688FB8F46C-
+
